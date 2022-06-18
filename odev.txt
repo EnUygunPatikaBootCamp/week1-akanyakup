@@ -1,0 +1,16 @@
+OOP nedir? Ne amaçlı kullanılır?
+Temel olarak OOP, işlevlerin nesnel olarak ele alındığı bir programlama modelidir. 
+Kod tekrarlarının olmaması ve daha kısa kodlarla oluşturması okunurluluğu artırdığı için çok kullanışlıdır.
+
+Polymorphism ne amaçlı kullanılır?
+Benzer nesneleri ortak özellikleriyle ele almak veya nesnenin aynı işi farklı şekillerde yaptırmak amacıyla kullanılır.
+
+Bir metodun private, protected ya da public olması kavramlarını açıklayınız.
+public: Bir değişkene, methoda yada sınıfa heryerden erişmek istiyorsak bunu kullanırız.
+private: Dışarıdan erişilmesini istemeyip sadece o scope'un içinden erişmek istiyorsak bunu kullanırız.
+protected: Sadece o sınıf içinden veya o sınıftan kalıtım alan sınıflar içerisinden erişmek istiyorsak bunu kullanırız.
+
+ (Abstraction) Soyutlama nedir?
+ Alt sınıfların ortak özelliklerini ve işlevlerini taşır ve ortak bir şablon üzerinden ilerleme imkanı sunar. 
+ Soyut sınıfın yöntemleri alt sınıfları tarafından üzerine yazılmak üzere şablon olarak tanımlanabilir veya soyut metot olarak oluşturulabilir. 
+ Soyut metota sahip bir sınıf otomatik olarak kendisi de soyut hale gelir ve soyut sınıflardan nesne oluşturulmaz. 

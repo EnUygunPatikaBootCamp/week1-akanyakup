@@ -1,0 +1,18 @@
+Soru 1 - Araştırma Konusu
+
+Programlama yaparken değişken isimlerinde boşluk kullanmayız. Boşlukları kaldırdığımızda ise kelimeler karmakarışık olur ve neyi ifade ettiğini anlayamayabiliriz. Bu yüzden okunurluluğu daha da artırmak ve anlam karmaşasını gidermek için özel isimlendirmeler kullanırız. Yazım notasyonları da denen bu isimlendirme çeşitlerinden en çok kullanılanlar şu şekildedir;
+Camel Case: Değişkenimiz veya fonksiyonumuz iki ya da daha fazla kelimeden oluşuyorsa ilk harf küçük, diğer harfler büyük harfle başlar ve kelimeler birleştirilir. Örneğin 'öğrenci numarası' adınla bir değişken oluşturacaksak '$ogrenciNo' şeklinde yazarız. Genellikle Java ile özdeşleşen bu isimlendirme çeşiti en yaygın kullanılanlardan biridir.
+Snake Case: Yine Camel Case'de olduğu gibi değişkenimiz veya fonksiyonumuzun birkaç kelimeden oluşması durumunda kelimelerin arasına altçizgi(_) konulmasına Snake Case denir. Örneğin 'öğrenci numarası' demek istiyorsak '$ogrenci_numarası' şeklinde yazarız. 
+Kebab Case: Bu kullanım türünde tüm harfler küçüktür ve kelimenin aralarına tire(-) konulur. Örneğin 'kullanıcı oturum izni' demek istiyorsan '$kullanici-oturum-izni' şeklinde yazarız.
+Pascal Case: Camel Case'deki kuralların aynısı geçerli olması dışında tek farklı değişkenin büyük harfle başlamasıdır. Örneğin 'kullanıcı oturum izni' demek istiyorsak '$KullaniciOturumIzni' şeklinde yazarız.
+Flat Case: DEğişkenleri olduğu gibi yanyana ve küçük harfle yazarız. Örneğin 'kullanıcı oturum izni' yazım şekli 'kullanicioturumizni' şeklindedir.
+Upper Flat Case: Değişken tanımlanırken kelimelerin tüm harflerinin büyük harf olarak kullanılıp birleştirilmesiyle oluşur. Yazım şekli '$KULLANICIOTURUMIZNI' biçimindedir.
+Train Case: HTTP Header Case olarak da bilinen Train Case, Kebab ve Pascal Case kurallarının birleşmesiyle oluşur. Yazım şekli '$Kullanici-Oturum-Izni' biçimindedir.
+
+Soru 2 -Linux Commands
+
+tail: Bir dosyanın sondan belirli bir satırını görmek istiyorsak veya canlı olarak izlemek istiyorsak bu komutu kullanırız.
+cat: Adını concatenate (ardarda bağlanma)'den alan komut, genelde dosya açmak için kullanılsada bu komut ile yeni dosyalar oluşturabilir, dosyaları açabilir ve dosyaları taşıyabilirler.
+sudo: Açılımı superuser do olan komut, süper kullanıcı izinleri gerektiren komutları çalıştırmasını sağlar.
+touch: Linux'ta dosya oluşturmak, birden fazla dosya oluşturmak, oluşturma tarihi değiştirerek dosya oluşturmak veya zaman damgasını değiştirmek istiyorsak bu komutu kullanırız.
+mkdir: Linux'ta klasör, çoklu klasör oluşturmamıza olanak sağlayan komuttur ve dosya oluştururken klasörün izin ayarlarımızı da istediğimiz gibi ayarlamamıza imkan sağlar.
